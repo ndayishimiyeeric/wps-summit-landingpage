@@ -50,3 +50,28 @@ ul {
   margin: 9%;
   transition: transform 0.2s ease-in-out;
 }
+
+.see-more {
+  font-family: $secondary-font;
+  margin: auto;
+  padding-top: 3%;
+  margin-bottom: 10%;
+  border-bottom: 1px solid $primary-white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.atc-btn:hover,
+.see-more:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.program-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.program-card:hover {
+  cursor: pointer;
+  border: 1px solid $primary-white;
+  transform: scale(0.95);
+}

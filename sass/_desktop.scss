@@ -2,4 +2,74 @@
   .bars-menu {
     display: none;
   }
+
+  .main-section {
+    background: url(/img/bgdash.png), $primary-black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-section h3 {
+    text-align: center;
+    padding: 8% 8% 3% 8%;
+    color: $primary-white;
+    font-family: $primary-font;
+    font-weight: 900;
+  }
+
+  .line {
+    text-align: center;
+    width: 10%;
+    margin: auto;
+    background-color: $primary-red;
+    height: 3px;
+    border: none;
+    margin-bottom: 30px;
+  }
+
+  .main-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    padding: 5%;
+  }
+
+  .program-card {
+    display: flex;
+    flex-direction: column;
+    background-color: $secondary-black;
+    height: 100%;
+    padding: 5%;
+    gap: 12px;
+  }
+
+  .program-card img {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .program-card h5 {
+    color: $primary-red;
+    font-family: $primary-font;
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .program-card p {
+    color: $primary-white;
+    font-family: $primary-font;
+    flex: 3;
+    height: auto;
+    width: auto;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .main-section button {
+    display: none;
+  }
 }
