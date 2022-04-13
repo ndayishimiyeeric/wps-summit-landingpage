@@ -169,4 +169,31 @@
     height: 3px;
     border: none;
   }
+
+  //   Partners
+  .partners {
+    background-color: $primary-black;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+  }
+
+  .partners h3 {
+    padding: 2% 2% 2% 2%;
+    margin: auto;
+    color: $primary-white;
+    font-family: $primary-font;
+    font-weight: 700;
+  }
+
+  .partners-container {
+    padding: 0 20% 0 20%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+  }
+
+  .partners-container img {
+    width: 30%;
+  }
 }
