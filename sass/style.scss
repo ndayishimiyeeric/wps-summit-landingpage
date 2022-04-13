@@ -13,3 +13,40 @@
     display: flex;
   }
 }
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+
+  .logo {
+    width: 15%;
+    justify-self: flex-start;
+    margin-left: 20px;
+
+    img {
+      width: 40%;
+    }
+  }
+
+  .nav-bar {
+    margin: 0 100px 0 50px;
+    .nav-links {
+      display: flex;
+      gap: 30px;
+
+      .link {
+        color: $primary-blue;
+        font-family: $primary-font;
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

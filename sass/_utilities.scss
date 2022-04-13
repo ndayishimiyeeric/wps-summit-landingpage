@@ -18,3 +18,26 @@ a {
   text-decoration: none;
   color: $primary-white;
 }
+
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto 0 auto;
+}
+
+.btn {
+  display: block;
+  padding: 7px;
+  border: 3px solid $primary-red;
+  background: $primary-white;
+  color: $primary-red;
+  font-size: 15px;
+  font-weight: 400;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(0.95);
+}
