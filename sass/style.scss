@@ -1,5 +1,6 @@
 @import "config";
 @import "utilities";
+@import "desktop";
 
 .upper-navbar {
   background-color: $primary-black;
@@ -48,5 +49,126 @@
 
   @media (max-width: 768px) {
     display: none;
+  }
+}
+
+.headline {
+  background: url(/img/mainbg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @media only screen and (max-width: 767px) {
+    background: url(/img/mobilebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  a img:nth-child(2) {
+    display: none;
+  }
+
+  .headline-links {
+    display: none;
+  }
+
+  .pitch1 {
+    color: $secondary-red;
+    font-family: $secondary-font;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10% 5% 0 10%;
+  }
+
+  .heading {
+    background: url(/img/orange.jpeg);
+    background-clip: text;
+    color: transparent;
+    font-family: $secondary-font;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 5% 5% 10%;
+    width: 50%;
+    line-height: 60px;
+
+    @media only screen and (max-width: 767px) {
+      width: 85%;
+    }
+  }
+
+  .message {
+    background-color: $secondary-white;
+    font-family: $secondary-font;
+    width: 60%;
+    color: $primary-black;
+    line-height: 20px;
+    font-weight: 400;
+    border: 4px solid $primary-white;
+    margin: 0 5% 5% 10%;
+    padding: 3%;
+    @media (max-width: 768px) {
+      width: 80%;
+    }
+  }
+
+  .date {
+    margin: 0 5% 2% 10%;
+    font-size: 30px;
+    color: $primary-black;
+    font-family: $secondary-font;
+  }
+
+  .heading-2 {
+    font-size: 15px;
+    font-weight: 900;
+    color: $primary-black;
+    margin: 0 5% 5% 10%;
+  }
+}
+
+// Media queries for mobile
+@media only screen and (max-width: 767px) {
+  .bars-menu {
+    margin-top: 30px;
+    padding-left: 10%;
+    width: 3%;
+  }
+
+  .active {
+    position: fixed;
+    width: 100vw;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: $secondary-white;
+    z-index: 99;
+  }
+
+  .active a img:nth-child(1) {
+    display: none;
+  }
+
+  .active a img:nth-child(2) {
+    display: block;
+  }
+
+  .active .headline-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25%;
+
+    .link {
+      color: $primary-blue;
+      font-family: $primary-font;
+      font-size: 25px;
+      font-weight: 500;
+      margin-bottom: 10%;
+    }
   }
 }
