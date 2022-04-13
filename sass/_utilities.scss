@@ -41,3 +41,12 @@ ul {
 .btn:hover {
   transform: scale(0.95);
 }
+
+.atc-btn {
+  padding: 6%;
+  background-color: $primary-red;
+  color: $primary-white;
+  border-style: none;
+  margin: 9%;
+  transition: transform 0.2s ease-in-out;
+}
