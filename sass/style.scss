@@ -329,4 +329,32 @@
     background-clip: text;
     color: transparent;
   }
+
+  //   Partners
+  .partners {
+    background-color: $primary-black;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    color: $primary-white;
+    font-family: $primary-font;
+    padding: 5% 5% 10% 5%;
+  }
+
+  .partners h3 {
+    text-align: center;
+    padding: 8% 8% 3% 8%;
+    color: $primary-white;
+    font-family: $primary-font;
+    font-weight: 700;
+  }
+
+  .partners-container {
+    display: flex;
+    gap: 30px;
+  }
+
+  .partners-container img {
+    width: 30%;
+  }
 }
