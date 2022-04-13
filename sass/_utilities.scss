@@ -12,3 +12,9 @@ body {
   background-color: $primary-white;
   font-family: $primary-font;
 }
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: $primary-white;
+}
