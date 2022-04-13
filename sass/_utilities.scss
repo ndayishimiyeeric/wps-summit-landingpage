@@ -75,3 +75,11 @@ ul {
   border: 1px solid $primary-white;
   transform: scale(0.95);
 }
+
+.speaker-orgin {
+  transition: transform 0.2s ease-in-out;
+}
+
+.speaker-orgin:hover {
+  transform: scale(1.1);
+}

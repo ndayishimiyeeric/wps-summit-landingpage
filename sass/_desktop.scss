@@ -72,4 +72,101 @@
   .main-section button {
     display: none;
   }
+
+  //   Featured speakers
+  .speakers-section {
+    padding: 4%;
+    margin: 1% 3%;
+  }
+
+  .speakers-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr;
+    gap: 12px;
+  }
+  .speakers-section h3 {
+    text-align: center;
+    padding: 8% 8% 3% 8%;
+    margin: auto;
+    color: $primary-black;
+    font-family: $primary-font;
+    font-weight: 900;
+    width: max-content;
+  }
+
+  .speaker-image {
+    position: relative;
+    margin: auto;
+    max-width: 110px;
+    min-height: 110px;
+    height: auto;
+    width: 100%;
+  }
+
+  .speaker-bihind {
+    position: absolute;
+    max-width: 45px;
+    max-height: 45px;
+    width: 100%;
+  }
+
+  .speaker-orgin {
+    position: absolute;
+    max-width: 100px;
+    width: 100%;
+    z-index: 1;
+    max-height: 100px;
+    right: 0;
+    bottom: 0;
+    object-fit: contain;
+  }
+
+  .speaker-card {
+    display: flex;
+    gap: 10px;
+    padding: 4% 0 4% 4%;
+  }
+
+  .speaker-description {
+    display: flex;
+    flex-direction: column;
+    color: $primary-black;
+    font-family: $primary-font;
+    height: auto;
+    width: auto;
+    font-weight: 900;
+  }
+
+  .speaker-description h5 {
+    color: $primary-black;
+    font-family: $primary-font;
+    height: auto;
+    font-weight: 900;
+  }
+
+  .speaker-description h6 {
+    color: $primary-red;
+    font-family: $primary-font;
+    height: auto;
+    font-weight: 900;
+  }
+
+  .speaker-description p {
+    font-size: 15px;
+    font-family: $secondary-font;
+    font-weight: 500;
+    background: $linear-gradient-one;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .small-line {
+    text-align: center;
+    margin: 10px 0;
+    width: 8%;
+    background-color: $primary-gourge;
+    height: 3px;
+    border: none;
+  }
 }
