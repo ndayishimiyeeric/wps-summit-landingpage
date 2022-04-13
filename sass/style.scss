@@ -86,6 +86,7 @@
   .heading {
     background: url(/img/orange.jpeg);
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     font-family: $secondary-font;
     font-size: 50px;
@@ -327,6 +328,7 @@
     font-weight: 500;
     background: $linear-gradient-one;
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
   }
 
