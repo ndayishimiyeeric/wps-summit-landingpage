@@ -7,6 +7,12 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: cocogoose;
+  src: url(../font/Cocogoose.otf);
+  font-weight: bold;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -367,9 +373,9 @@ ul {
     background: url(../img/orange.jpeg);
     -webkit-background-clip: text;
     color: #ec5242;
-    font-family: "Poppins", sans-serif;
+    font-family: "Cocogoose", sans-serif;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: bold;
     margin: auto;
     margin-bottom: 6%;
     width: 70%;
@@ -654,7 +660,7 @@ ul {
   background-size: cover;
   -webkit-background-clip: text;
   color: transparent;
-  font-family: "Poppins", sans-serif;
+  font-family: "Cocogoose", sans-serif;
   font-size: 50px;
   font-weight: 700;
   margin: 0 5% 5% 10%;
@@ -1007,7 +1013,7 @@ ul {
     background: url(../img/orange.jpeg);
     -webkit-background-clip: text;
     color: #ec5242;
-    font-family: "Poppins", sans-serif;
+    font-family: "Cocogoose", sans-serif;
     font-size: 50px;
     font-weight: 700;
     margin: auto;
