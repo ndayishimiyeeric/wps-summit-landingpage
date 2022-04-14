@@ -36,6 +36,25 @@ ul {
   margin: 0 auto 0 auto;
 }
 
+.more-btn {
+  display: block;
+  padding: 15px;
+  border: 1px solid #414345;
+  border-radius: 5px;
+  color: #272a31;
+  font-weight: 300;
+  font-size: 15px;
+  background-color: #fff;
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.more-btn:hover {
+  cursor: pointer;
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
 .btn {
   display: block;
   padding: 7px;
@@ -282,6 +301,10 @@ ul {
     background-color: #c9c2c1;
     height: 3px;
     border: none;
+  }
+
+  .more-btn {
+    display: none;
   }
 
   .partners {
@@ -696,7 +719,7 @@ ul {
   margin: 0 5% 2% 10%;
   font-size: 30px;
   color: #272a31;
-  font-family: "Poppins", sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
 
 .headline .heading-2 {
@@ -918,6 +941,10 @@ ul {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     color: #414345;
+  }
+
+  .disabled {
+    display: none;
   }
 
   .partners {

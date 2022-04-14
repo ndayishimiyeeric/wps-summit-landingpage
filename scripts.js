@@ -129,3 +129,23 @@ for (let i = 0; i < speakers.length; i += 1) {
   paragraph.innerHTML = speakers[i].speaker_description.s_paragraph;
   speakerDescription.appendChild(paragraph);
 }
+
+const moreBtn = document.createElement('button');
+moreBtn.classList.add('more-btn');
+moreBtn.textContent = 'More';
+speakerSection.appendChild(moreBtn);
+
+const cardSpeaker = document.getElementsByClassName('speaker-card');
+cardSpeaker[2].classList.add('disabled');
+cardSpeaker[3].classList.add('disabled');
+cardSpeaker[4].classList.add('disabled');
+cardSpeaker[5].classList.add('disabled');
+
+const btnMore = document.querySelector('.more-btn');
+btnMore.addEventListener('click', () => {
+  btnMore.classList.toggle('disabled');
+  cardSpeaker[2].classList.toggle('disabled');
+  cardSpeaker[3].classList.toggle('disabled');
+  cardSpeaker[4].classList.toggle('disabled');
+  cardSpeaker[5].classList.toggle('disabled');
+});

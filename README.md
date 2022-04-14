@@ -20,6 +20,8 @@ This project is meant to test student ability's on being able to put together al
 - CSS (SASS)
 - JAVASCRIPT
 
+Here's a [video ](https://www.loom.com/share/852ed311b4154cf78b11c4e0a6816ac0) of me giving a few description of the project.
+
 ## Live Demo
 
 [Live Demo Link](https://ndayishimiyeeric.github.io/first-capstone-summit/)
