@@ -403,4 +403,24 @@
   .about-partners {
     display: none;
   }
+
+  .about-footer {
+    background-color: $primary-black;
+
+    img {
+      width: 100px;
+    }
+
+    .footer-paragraph .para-1 {
+      color: $primary-white;
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    .footer-paragraph .para-2 {
+      color: $primary-white;
+      font-size: 15px;
+      font-weight: 300;
+    }
+  }
 }
