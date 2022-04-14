@@ -365,7 +365,6 @@ ul {
 
   .heading-about {
     background: url(/img/orange.jpeg);
-    background-clip: text;
     -webkit-background-clip: text;
     color: #ec5242;
     font-family: "Poppins", sans-serif;
