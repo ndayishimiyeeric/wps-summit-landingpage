@@ -3,13 +3,13 @@
 This is my final project for HTML & CSS MODULE from the microverse curriculum
 
 <p align="center">
-  <img src="./img/screenshotmobile.png"/>
+  <img src="./img/mobile.png"/>
 </p>
 
 <hr>
 
 <p align="center">
-  <img src="./img/screenshotdesktop.png"/>
+  <img src="./img/desktop.png"/>
 </p>
 
 This project is meant to test student ability's on being able to put together all that they have learnt in a module to ensure they mastered it well.
@@ -17,10 +17,10 @@ This project is meant to test student ability's on being able to put together al
 ## Built With
 
 - HTML
-- CSS (SASS)
+- CSS
 - JAVASCRIPT
 
-Here's a [video ](https://www.loom.com/share/852ed311b4154cf78b11c4e0a6816ac0) of me giving a few description of the project.
+Here's a [video ](https://www.loom.com/share/f4a8530a7a7c4fc28313a20d7f0542db) of me giving a few description of the project.
 
 ## Live Demo
 
