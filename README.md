@@ -3,13 +3,13 @@
 This is my final project for HTML & CSS MODULE from the microverse curriculum
 
 <p align="center">
-  <img src=""/>
+  <img src="./img/screenshotmobile.png"/>
 </p>
 
 <hr>
 
 <p align="center">
-  <img src=""/>
+  <img src="./img/screenshotdesktop.png"/>
 </p>
 
 This project is meant to test student ability's on being able to put together all that they have learnt in a module to ensure they mastered it well.
@@ -24,7 +24,7 @@ Here's a [video ](https://www.loom.com/share/a8e3d9716fa44728be4a7f19a5444ab9) o
 
 ## Live Demo
 
-[Live Demo Link](https://zieeco.github.io/html-css-js-capstone/)
+[Live Demo Link](https://ndayishimiyeeric.github.io/first-capstone-summit/)
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ To get a local copy up and running:
 
 1. Clone this repository or download the Zip folder:
 
-**`git clone https://github.com/zieeco/html-css-javascript-capstone.git`**
+**`git clone https://github.com/ndayishimiyeeric/first-capstone-summit.git`**
 
 2. Navigate to the location of the folder in your machine:
 
@@ -48,7 +48,7 @@ To get a local copy up and running:
 
 ## Credits
 
-- The original design ideal by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- The original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 - Project from [Microverse](https://bit.ly/MicroverseTN) html & css module
 - Images inspired by this [All avatar images](https://pravatar.cc/images)
