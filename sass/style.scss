@@ -565,4 +565,22 @@
       font-weight: 700;
     }
   }
+
+  .about-footer {
+    background-color: $primary-white;
+
+    img {
+      width: 100px;
+    }
+
+    .footer-paragraph .para-1 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .footer-paragraph .para-2 {
+      font-size: 15px;
+      font-weight: 300;
+    }
+  }
 }
