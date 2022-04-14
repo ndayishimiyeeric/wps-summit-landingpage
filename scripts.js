@@ -67,7 +67,7 @@ const speakers = [
   {
     speaker_image: {
       speaker_bihind: './img/bgphoto.jpg',
-      speaker_orgin: './img/elizabethwarren.jpg'
+      speaker_orgin: './img/elizabethwarren.jpg',
     },
     speaker_description: {
       s_name: 'Elizabeth Warren',
@@ -113,7 +113,6 @@ for (let i = 0; i < speakers.length; i += 1) {
   const speakerDescription = document.createElement('div');
   speakerDescription.classList.add('speaker-description');
   speakerCard.appendChild(speakerDescription);
-  
   const descH5 = document.createElement('h5');
   descH5.innerHTML = speakers[i].speaker_description.s_name;
   speakerDescription.appendChild(descH5);
@@ -128,5 +127,5 @@ for (let i = 0; i < speakers.length; i += 1) {
 
   const paragraph = document.createElement('p');
   paragraph.innerHTML = speakers[i].speaker_description.s_paragraph;
-  speakerDescription.appendChild(paragraph)
+  speakerDescription.appendChild(paragraph);
 }
