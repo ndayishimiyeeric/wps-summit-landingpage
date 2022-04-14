@@ -97,7 +97,7 @@ ul {
   }
 
   .main-section {
-    background: url(/img/bgdash.png), #272a31;
+    background: url(./img/bgdash.png), #272a31;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -364,7 +364,7 @@ ul {
   }
 
   .heading-about {
-    background: url(/img/orange.jpeg);
+    background: url(./img/orange.jpeg);
     -webkit-background-clip: text;
     color: #ec5242;
     font-family: "Poppins", sans-serif;
@@ -612,7 +612,7 @@ ul {
 }
 
 .headline {
-  background: url(/img/mainbg.png);
+  background: url(./img/mainbg.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 100%;
@@ -626,7 +626,7 @@ ul {
 
 @media only screen and (max-width: 767px) {
   .headline {
-    background: url(/img/mobilebg.png);
+    background: url(./img/mobilebg.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -649,7 +649,7 @@ ul {
 }
 
 .headline .heading {
-  background: url(/img/orange.jpeg);
+  background: url(./img/orange.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-clip: text;
@@ -742,7 +742,7 @@ ul {
   }
 
   .main-section {
-    background: url(/img/bgdash.png), #272a31;
+    background: url(./img/bgdash.png), #272a31;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1004,7 +1004,7 @@ ul {
   }
 
   .heading-about {
-    background: url(/img/orange.jpeg);
+    background: url(./img/orange.jpeg);
     -webkit-background-clip: text;
     color: #ec5242;
     font-family: "Poppins", sans-serif;
