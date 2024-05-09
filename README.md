@@ -22,7 +22,7 @@ This project is meant to test student ability's on being able to put together al
 
 ## Live Demo
 
-[Live Demo Link](https://ndayishimiyeeric.github.io/first-capstone-summit/)
+[Live Demo Link](https://ndayishimiyeeric.github.io/wps-summit-landingpage/)
 
 ## Getting Started
 
@@ -30,7 +30,7 @@ To get a local copy up and running:
 
 1. Clone this repository or download the Zip folder:
 
-**`git clone https://github.com/ndayishimiyeeric/first-capstone-summit.git`**
+**`git clone https://github.com/ndayishimiyeeric/wps-summit-landingpage.git`**
 
 2. Navigate to the location of the folder in your machine:
 
